@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+}
+header h2{
+    background-color:#4F2170;
+    color:#FFC72C;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    font-family: 'Gotham', sans-serif
+}
+#logo{
+    width:10%;
+    height:10%;
+    margin:0;
+    padding:0;
+    display:block;
+}
+footer{
+    background-color:#4F2170;
+}
+a{
+    color:#FFC72C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+#slade{
+    color:#4F2170;
+}
+#aud{
+    color:#4F2170;
+}
+#redirect{
+    background-color:#4F2170;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;   
+}
+.grid-item{
+    background-color: #FFC72C;
+    border:7.5px solid #4F2170
+}

@@ -1,0 +1,51 @@
+header h2{
+    text-align:left;
+    display:flex;
+    align-items:center;
+    font-family: Gotham;
+}
+header h1{
+    text-align:center;
+}
+#redirect{
+    text-align:left;
+}
+ol{
+    text-align:center;
+    list-style-position: inside;
+    margin-right: 2.5em
+}
+#performances{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+header h3{
+    text-align:center;
+}
+#faculty{
+    display:flex;
+    justify-content:space-around; 
+    align-items:flex-start;   
+    text-align:center; 
+    gap:2rem;       
+}
+#slead{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 1px;
+    max-width: 900px;
+    margin: 0 auto; 
+}
+.grid-item a{
+    display: block;
+    height: 90%;
+    width: 90%;
+    color: inherit;
+    padding: 20px;
+}
