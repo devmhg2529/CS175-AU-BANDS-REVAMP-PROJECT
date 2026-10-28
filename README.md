@@ -1,4 +1,4 @@
-This is a group project, being performed by Devin Marsh, Ronald Hamm, and John Wheeler, is created for Dr. Selvanayaki Kolandapalayam Shanmugam's CS175 (Web Design) class at Ashland Unviersity.
+This group project, being performed by Devin Marsh, Ronald Hamm, and John Wheeler, is created for Dr. Selvanayaki Kolandapalayam Shanmugam's CS175 (Web Design) class at Ashland Unviersity.
 
 This project attempts to give a new and revised look to the Ashland University Bands in order to make it more appealing to newcomers and returners alike who may be interested in the Ashland University Bands program.
 
