@@ -1,27 +1,56 @@
+/*Header Layouts & Styling*/
+
+header h1{
+    text-align:center;
+}
 header h2{
     text-align:left;
     display:flex;
     align-items:center;
-    font-family: Gotham;
+    background-color:#4F2170;
+    color:#FFC72C;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    font-family: 'Gotham', sans-serif
 }
-header h1{
+header h3{
     text-align:center;
 }
+
+/*Text Layouts & Styling*/
+
+body{
+    margin:0;
+    padding:0;
+}
+p{
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;   
+}
+footer{
+    background-color:#4F2170;
+}
+a{
+    color:#FFC72C;
+}
+
+/*List Layouts & Styling*/
+
+ol{
+    text-align:left;
+    list-style-position: inside;
+}
+
+/*ID Layouts & Styling*/
+
 #redirect{
     text-align:left;
-}
-ol{
-    text-align:center;
-    list-style-position: inside;
-    margin-right: 2.5em
 }
 #performances{
     display:block;
     margin-left:auto;
     margin-right:auto;
-}
-header h3{
-    text-align:center;
 }
 #faculty{
     display:flex;
@@ -30,11 +59,50 @@ header h3{
     text-align:center; 
     gap:2rem;       
 }
-#slead{
+#slead, #bpres{
     display:flex;
     align-items:flex-start;
     justify-content:center;
 }
+#sleadimg{
+    width:200px;
+    height:250px;
+    object-fit:cover;
+    object-position:top center
+}
+#logo{
+    width:10%;
+    height:10%;
+    margin:0;
+    padding:0;
+    display:block;
+}
+#performances{
+    max-width:50%;
+    height:auto;
+
+    border-style:solid;
+    border-width: 12.5px;
+    border-color:#FFC72C;
+}
+#mdiehl, #sdenman, #vhenry{
+    width:200px;
+    height:250px;
+    object-fit:cover;
+    object-position:top center
+}
+#slade{
+    color:#4F2170;
+}
+#redirect{
+    background-color:#4F2170;
+    width: 100%;
+    padding: 1px 20px;
+    box-sizing: border-box;
+}
+
+/*Grid Layouts & Styling*/
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
@@ -42,10 +110,41 @@ header h3{
     max-width: 900px;
     margin: 0 auto; 
 }
+.grid-item{
+    background-color: white;
+    border:4px solid #4F2170;
+}
 .grid-item a{
     display: block;
     height: 90%;
     width: 90%;
     color: inherit;
     padding: 20px;
+}
+
+/*Table Layouts & Styling*/
+table.shows{
+    background: white;
+    border: 5px outset #4F2170;
+    border-collapse: collapse;
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table.shows th, table.shows td{
+    border:1px solid #4F2170
+}
+table.shows caption{
+    text-align: center;
+}
+table.perfdates{
+    background: white;
+    border: 5px outset #4F2170;
+    border-collapse: collapse;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table.perfdates th, table.perfdates td{
+    border:1px solid #4F2170
 }
