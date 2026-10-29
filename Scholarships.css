@@ -1,0 +1,197 @@
+html {
+   background-color: rgb(247, 247, 247); 
+}
+
+header h2{
+    text-align:left;
+    display:flex;
+    align-items:center;
+}
+header{
+    text-align:center;
+}
+#redirect{
+    text-align:left; background-color:#4F2170;
+}
+header h2{
+    background-color:#4F2170;
+    color:#FFC72C;
+}
+h2 img{
+    width:10%;
+    height:10%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.card {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.card p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+
+
+
+/* ---------- Clickable image with hover overlay ---------- */
+
+.image-link {
+    position: relative;    
+    display: block;       
+    overflow: hidden;     
+    cursor: pointer;        
+    line-height: 0;         
+    height: 205px;
+}
+
+.image-link img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    transition: transform .3s ease, filter .3s ease;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    background: rgba(79, 33, 112, .68); 
+    opacity: 0;
+    transition: opacity .25s ease;
+    pointer-events: none; 
+}
+
+.image-link:hover .image-overlay,
+.image-link:focus-visible .image-overlay {
+    opacity: 1;
+}
+
+.image-link:hover img,
+.image-link:focus-visible img {
+    transform: scale(1.05);
+    filter: brightness(.85);
+}
+
+.image-link:focus-visible {
+    outline: 3px solid #4F2170;
+    outline-offset: 2px;
+}
+
+/* ---------- Scholarship dropdown ---------- */
+
+.scholarship-info {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.scholarship-dropdown {
+    border: 2px solid #4F2170;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.scholarship-dropdown summary {
+    background-color: #4F2170;
+    color: white;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    transition: background-color 0.3s ease;
+}
+
+.scholarship-dropdown summary:hover {
+    background-color: #6c408b;
+}
+
+.scholarship-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.scholarship-dropdown[open] .arrow {
+    transform: rotate(225deg);
+}
+
+.dropdown-content {
+    padding: 25px;
+    background-color: white;
+    animation: dropdownFade 0.3s ease;
+}
+
+.dropdown-content h3 {
+    color: #4F2170;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.dropdown-content li {
+    margin-bottom: 10px;
+}
+
+@keyframes dropdownFade {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+footer{
+    background-color:#4F2170;
+}
+a{
+    color:#FFC72C;
+}
