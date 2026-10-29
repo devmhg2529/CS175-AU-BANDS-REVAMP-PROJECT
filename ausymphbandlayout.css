@@ -1,29 +1,82 @@
+/*Header Layouts & Styling*/
+
+header h1{
+    text-align:center;
+}
 header h2{
     text-align:left;
     display:flex;
     align-items:center;
-}
-header h1{
-    text-align:center;
-}
-#redirect{
-    text-align:left;
+    background-color:#4F2170;
+    color:#FFC72C;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    font-family: 'Gotham', sans-serif
 }
 header h3{
     text-align:center;
 }
-p{
-    text-align:left;
-}
+
+/*List Layouts & Styling*/
+
 ul{
     list-style-position: inside;
 }
+
+/*Text Layouts & Styling*/
+
+p{
+    text-align:left;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+body{
+    margin:0;
+    padding:0;
+}
+footer{
+    background-color:#4F2170;
+}
+a{
+    color:#FFC72C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+
+/*ID Layouts & Styling*/
+
+#redirect{
+    text-align:left;
+    background-color:#4F2170;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;
+}
+#logo{
+    width:10%;
+    height:10%;
+    margin:0;
+    padding:0;
+    display:block;
+}
+#slade{
+    color:#4F2170;
+}
+#aud{
+    color:#4F2170;
+}
+
+/*Grid Layouts & Styling*/
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: 10px;
     max-width: 900px;
     margin: 0 auto; 
+}
+.grid-item{
+    background-color: #FFC72C;
+    border:7.5px solid #4F2170
 }
 .grid-item a{
     display: block;
