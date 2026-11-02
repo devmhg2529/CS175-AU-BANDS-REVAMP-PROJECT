@@ -59,7 +59,14 @@ ol{
     text-align:center; 
     gap:2rem;       
 }
-#slead, #bpres{
+#bpres{
+    display:flex;
+    justify-content:space-around; 
+    align-items:flex-start;   
+    text-align:left; 
+    gap:2rem;       
+}
+#slead{
     display:flex;
     align-items:flex-start;
     justify-content:center;
@@ -147,4 +154,12 @@ table.perfdates{
 }
 table.perfdates th, table.perfdates td{
     border:1px solid #4F2170
+}
+
+/*Section Stylings*/
+.Performances{
+    background-color:whitesmoke;
+}
+.Gallery{
+    background-color:whitesmoke;
 }
