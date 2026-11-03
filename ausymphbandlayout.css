@@ -2,6 +2,7 @@
 
 header h1{
     text-align:center;
+    font-family: 'Gotham', sans-serif
 }
 header h2{
     text-align:left;
@@ -17,6 +18,7 @@ header h2{
 }
 header h3{
     text-align:center;
+    font-family: 'Gotham', sans-serif
 }
 
 /*List Layouts & Styling*/
@@ -31,13 +33,16 @@ p{
     text-align:left;
     margin-left: 4em;
     margin-right: 4em;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
 }
 body{
     margin:0;
     padding:0;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
 }
 footer{
     background-color:#4F2170;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
 }
 a{
     color:#FFC72C;
@@ -84,4 +89,22 @@ a{
     width: 90%;
     color: inherit;
     padding: 20px;
+}
+
+/*Table Layouts & Styling*/
+table.perfdates{
+    background: white;
+    border: 5px outset #4F2170;
+    border-collapse: collapse;
+    width:35%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table.perfdates th, table.perfdates td{
+    border:1px solid #4F2170
+}
+
+/*Section Stylings*/
+.AuditionInfo{
+    background-color:whitesmoke;
 }
