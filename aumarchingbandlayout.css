@@ -20,6 +20,9 @@ header h3{
     text-align:center;
     font-family: 'Gotham', sans-serif
 }
+th{
+    font-family: 'Gotham', sans-serif  
+}
 
 /*Text Layouts & Styling*/
 
@@ -37,6 +40,12 @@ footer{
 }
 a{
     color:#FFC72C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+figcaption{
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+td{
     font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
 }
 
