@@ -1,3 +1,9 @@
+html {
+   background-color: rgb(247, 247, 247); 
+}
+body {
+    margin-top: 0;
+}
 header h2{
     text-align:left;
     display:flex;
@@ -5,19 +11,81 @@ header h2{
 }
 header{
     text-align:center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
 }
 header h2{
     background-color:#4F2170;
     color:#FFC72C;
-}
-#redirect{
-    text-align:left; background-color:#4F2170
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 h2 img{
     width:10%;
     height:10%;
 }
 
+/* ---------- Navigation Dropdown ---------- */
+
+.site-dropdown {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-button {
+    background-color: #4F2170;
+    color: #FFC72C;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    border: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 210px;
+    background-color: #4F2170;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #FFC72C;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+    background-color: #6C408B;
+    color: white;
+}
+
+.site-dropdown:hover .dropdown-menu,
+.site-dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+.dropdown-button:hover {
+    background-color: #6C408B;
+}
+
+/* ---------- Image Links ---------- */
 
 .container {
     display: flex;
@@ -54,7 +122,7 @@ h2 img{
 }
 
 
-/* ---------- Clickable image with hover overlay ---------- */
+/* ---------- Image Overlay ---------- */
 
 .image-link {
   position: relative;
@@ -83,7 +151,7 @@ h2 img{
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .06em;
-  background: rgba(79, 33, 112, .68);
+  background: rgba(102, 0, 140, .68);
   opacity: 0;
   transition: opacity .25s ease;
   pointer-events: none;
@@ -107,7 +175,7 @@ h2 img{
 }
 
 .jazz-highlight {
-    background: linear-gradient(135deg, #4F2170 0%, #6c408b 100%);
+    background: linear-gradient(135deg, #5C068C 0%, #6c408b 100%);
     color: white;
     padding: 30px;
     border-radius: 12px;
@@ -128,7 +196,7 @@ h2 img{
 
 .jazz-about {
     background: white;
-    border: 2px solid #4F2170;
+    border: 2px solid #5C068C;
     border-radius: 12px;
     padding: 30px;
 }
@@ -154,7 +222,7 @@ h2 img{
     margin-bottom: 8px;
 }
 footer{
-    background-color:#4F2170;
+    background-color:#5C068C;
 }
 a{
     color:#FFC72C;
