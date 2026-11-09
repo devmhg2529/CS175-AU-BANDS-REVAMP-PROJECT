@@ -63,3 +63,31 @@ header{
     outline-offset: 2px;
 }
  
+@media only screen and (max-width:480px){
+    header{
+        max-width:100%;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+@media only screen and (min-width:481px){
+    header{
+        max-width:100%;
+    }
+    .container{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:769px){
+    header{
+        max-width:100%;
+    }
+    .container{
+        flex-direction: row;
+        align-items: center;
+    }
+}
