@@ -1,0 +1,110 @@
+/*Header Layouts & Styling*/
+
+header h1{
+    text-align:center;
+    font-family: 'Gotham', sans-serif
+}
+header h2{
+    text-align:left;
+    display:flex;
+    align-items:center;
+    background-color:#5C068C;
+    color:#FFC72C;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    font-family: 'Gotham', sans-serif
+}
+header h3{
+    text-align:center;
+    font-family: 'Gotham', sans-serif
+}
+
+/*Text Layouts & Styling*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+
+/*ID Layouts & Styling*/
+
+#redirect{
+    text-align:left;
+    background-color:#5C068C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;
+}
+#logo{
+    width:10%;
+    height:10%;
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+/* ---------- Navigation Dropdown ---------- */
+
+.site-dropdown {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-button {
+    background-color: #5C068C;
+    color: #FFC72C;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    border: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 210px;
+    background-color: #5C068C;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #FFC72C;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+    background-color: #5C068C;
+    color: white;
+}
+
+.site-dropdown:hover .dropdown-menu,
+.site-dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+.dropdown-button:hover {
+    background-color: #5C068C;
+}
+
+/*Calendar Styling*/
+div[data-ics-url]{
+    border: 3px solid #5C068C;
+    padding: 10px;
+    display:block;
+    margin-left:2em;
+    margin-right:2em;
+}
