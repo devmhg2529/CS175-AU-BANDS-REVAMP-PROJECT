@@ -87,7 +87,7 @@ body{
 }
 
 .dropdown-menu a:hover {
-    background-color: #5C068C;
+    background-color: #6C408B;
     color: white;
 }
 
@@ -97,7 +97,7 @@ body{
 }
 
 .dropdown-button:hover {
-    background-color: #5C068C;
+    background-color: #6C408B;
 }
 
 /*Calendar Styling*/
