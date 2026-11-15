@@ -45,7 +45,6 @@ body{
 }
 
 /* ---------- Navigation Dropdown ---------- */
-
 .site-dropdown {
     position: relative;
     display: block;
@@ -72,7 +71,9 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 210px;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     background-color: #5C068C;
     box-shadow: 0 4px 8px rgba(0,0,0,0.25);
     z-index: 1000;
