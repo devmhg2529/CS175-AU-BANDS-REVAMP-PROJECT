@@ -1,0 +1,85 @@
+html {
+   background-color: rgb(247, 247, 247); 
+}
+body {
+    margin-top: 0;
+}
+header h2{
+    text-align:left;
+    display:flex;
+    align-items:center;
+}
+header{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+header h2{
+    background-color:#5C068C;
+    color:#FFC72C;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+h2 img{
+    width:10%;
+    height:10%;
+}
+body{
+    margin:0;
+    padding:0;
+}
+/*Header Layouts & Styling*/
+
+header h1{
+    text-align:center;
+    font-family: 'Gotham', sans-serif
+}
+header h2{
+    text-align:left;
+    display:flex;
+    align-items:center;
+    background-color:#5C068C;
+    color:#FFC72C;
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    font-family: 'Gotham', sans-serif
+}
+header h3{
+    text-align:center;
+    font-family: 'Gotham', sans-serif
+}
+th{
+    font-family: 'Gotham', sans-serif;  
+    padding: 5px;
+}
+/*Text Layouts & Styling*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+p{
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;   
+}
+footer{
+    background-color:#5C068C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+a{
+    color:#FFC72C;
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+figcaption{
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+}
+td{
+    font-family: 'Mercury', 'Mercury Text', 'Mercury Display', serif;  
+    padding: 5px;
+}
