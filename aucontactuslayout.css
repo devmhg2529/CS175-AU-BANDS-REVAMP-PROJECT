@@ -134,3 +134,10 @@ table.directors td {
 .AuditionInfo{
     background-color:whitesmoke;
 }
+
+/*Images*/
+  table img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+  }
